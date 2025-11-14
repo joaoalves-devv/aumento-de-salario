@@ -25,7 +25,7 @@
             position: absolute;
             width: 100%;
             height: 100%;
-            background: image-set("AUMENTO-DE-SALARIO/urso.png");
+            background: image-set("./urso.png");
             animation: rain 9s linear infinite;
             top: 0;
             left: 0;
@@ -106,7 +106,7 @@
 <body>
     <div class="rain" style="z-index: -1;"></div>
     <div class="container" id="screen1">
-        <img src="AUMENTO-DE-SALARIO/urso.png" alt="Personagem" style="    height: 21em;
+        <img src="./urso.png" alt="Personagem" style="    height: 21em;
 ;"><br>
         <h1>Olá, Chefe</h1>
         <p style=" margin-top: 0;  font-size: 2em;">O senhor poderia, por gentileza, me dar um aumento?</p>
@@ -123,7 +123,7 @@
 
             // Ação do botão SIM
             yesBtn.addEventListener("click", () => {
-                window.location.href = 'AUMENTO-DE-SALARIO/tela2.html';
+                window.location.href = './tela2.html';
             });
 
         // Botão "Cancelar" foge do mouse
